@@ -46,33 +46,24 @@ Upon completing this course, I was able to grasp the following concepts clearly:
 11.     Identify common sources of conflict within a project environment
 12.     Describe the difference between authority and influence
 
-**DAG Operations**
 
-The Airflow DAG is set up to execute the following steps sequentially.
+#### Budgeting and Scheduling Projects
+<img src="./Certificates/2.png" alt="Logo" width="500" height="400">
+In this course, I learnt to create a project budget and schedule that delivers results under costs and time constraints. A good project schedule helps all team members’ work together to meet project objectives. A project budget with realistic cost constraints is also an essential bedrock of any project. I also learnt to plan and stick to time and cost constraints in order to ensure the success of the project.
 
-1. Start execution as per schedule
-2. Create the AWS Redshift cluster
-3. Upload static datasets to AWS S3
-4. Stream tweet data to AWS Kinesis to ingest into AWS S3
-5. Create tables on AWS Redshift
-6. Stage the data from AWS S3 on AWS Redshift
-7. Perform data quality check on the staging tables
-8. Transform and load data into facts table 
-9. Perform data quality check on the facts tables
-10. Transform and load data into dimensional table 
-11. Perform data quality check on the dimensional tables
-12. Destroy the cluster
-13. End execution
 
-> NB: With slight modification to the code, we can remove the Step 4 which streams data from the DAG and manually run the `stream_tweets.py`. This would enable us to extract tweet from specific time of day when the script is run. 
+Upon completing this course, I was able to grasp the following concepts clearly:
+1.       Identify the resource needs of the project
+2.       Decompose work packages into activities
+3.       Define what is needed to estimate activity durations
+4.       Define milestones and create a milestone schedule
+5.       Determine the critical path and calculate float
+6.       Describe the purpose of using leads and lags in a project schedule
+7.       Estimate the quantities and costs of resources required to perform project activities
+8.       Select one of three common cost estimating techniques to determine a project budget
+9.       Use a responsibility assignment matrix to assign responsibilities
+10.      Recognize the components of a project’s quality management plan
 
-> NB: Step 2 and Step 12 are only for demonstration purpose. By creating a separate DAG to create cluster which executes only once, we can deploy this model to run daily until manual interruption.
-
-#### Run ETL to Model the Data
-
-The tweet data is typically generated at high speeds, especially in the `Real time Stream mode`, and normal data uploading techniques often fails. We use [AWS Kinesis](https://aws.amazon.com/kinesis/), which is a real time streaming and analysis service provided by AWS, to ingest tweet data into [AWS S3](https://aws.amazon.com/s3). AWS S3 acts a data lake storing our static and dynamic data for further processing. We then stage the tweet data, temperature data and happiness index data on [AWS Redshift](https://aws.amazon.com/redshift/) and convert them to fact and dimensions tables (Star Schema) on AWS Redshift. This would allow us to answer insightful questions on the data and can be used for business analytics. 
-
-Implementing the data stores and data warehouses on the cloud brings in lots of advantages. We can scale our resources vertically or horizontally as per our real time requirements with few clicks (or CLI commands). We can do the above much faster than implementing an on-premise resource with much less human working hours. We can also provide efficient access to our applications around the world by spreading our deployments to multiple regions.
 
 ##### Data quality checks
 
