@@ -3,7 +3,7 @@
 <br />
 
 <p align="center">
- <img src="./Certificates/5.png" alt="Logo" width="750" height="500">
+ <img src="./Certificates/5.png" alt="Logo" width="800" height="600">
  <h3 align="center">Meet The Faculty</h3>
 </p>
 
