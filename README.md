@@ -85,6 +85,7 @@ Upon completing this course, I was able to grasp the following concepts clearly:
 <img src="./Certificates/4.png" alt="Logo" width="500" height="400">
 This capstone project was designed ot allow me to use the concepts and knowledge learnt through hands on practice. I have taken up a use case to implement an "Automatic Appointment Scheduler" for the Blackboard Application that University of Texas at Dallas uses for bring the education platform online. I had often noticed how professors sometimes encourage students to meet even during non-office hours. The Professor could never give an excat time when he/she could be free to meet up a student and there had to be many redundant email exchanges between the professors and the students. This project was about eliminating this process of uncertainity and adding an appointment scheduler in the pre-existing calender from Blackboard.
 
+
 I had worked on the following to demonstrate my project management skills:
 1.       Writing a narrative charter statement
 2.       Creating a work breakdown structure
@@ -93,6 +94,8 @@ I had worked on the following to demonstrate my project management skills:
 5.       Creating a project budget
 6.       Creating a responsibility assignment matrix
 7.       Identifying project risks and define responses for those risks
+
+I had also extensivley used Microsft Project 2019 Professional for many of the tasks. It was a great learning experience to work around in sunch an amazing tool along with Microsft Excel for effective Project Management.
 
 <!-- CONTACT -->
 
