@@ -4,7 +4,7 @@
 
 <p align="center">
  <img src="./Certificate.png" alt="Logo" width="750" height="500">
- <h3 align="center">Twitter Data Topic Analysis</h3>
+ <h3 align="center">Meet The Faculty</h3>
 </p>
 
 
