@@ -14,12 +14,12 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Project management has been proven to be the most effective method of delivering products within cost, schedule, and resource constraints. This intensive and hands-on series of capstone project was a part of the Coursera Specialization "Project Management Principles and Practices Specialization". This capstone project helped me to build the skills to ensure projects are completed on time and on budget while giving the user the product they expect. I gained a strong working knowledge of the basics of project management and can immediately use this knowledge to effectively manage work projects for any software development organisation. At the end of this series I was able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources, manage the project development, identify and manage risks, and understand the project procurement process.
+Project management has been proven to be the most effective method of delivering products within cost, schedule, and resource constraints. This intensive and hands-on series of capstone project was a part of the Coursera Specialization [Project Management Principles and Practices Specialization](https://www.coursera.org/specializations/project-management. This capstone project helped me to build the skills to ensure projects are completed on time and on budget while giving the user the product they expect. I gained a strong working knowledge of the basics of project management and can immediately use this knowledge to effectively manage work projects for any software development organisation. At the end of this series I was able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources, manage the project development, identify and manage risks, and understand the project procurement process.
 
 
 ### Project Description
 
-#### Scope the Project and Gather Data
+#### Project Purpose
 
 In this project, we combine [Twitter](https://www.twitter.com) data, [World happiness index](https://www.kaggle.com/unsdsn/world-happiness) data and [Earth surface temperature data](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data) data to explore whether there is any correlation between the above. The Twitter data is dynamic and the other two dataset are static in nature. The general idea of this project is to extract Twitter data, analyze its sentiment and use the resulting data to gain insights with the other datasets. For instance, we could answer interesting questions like whether positive or negative tweets are correlated with the happiness index of the country a person is residing in, or, is there a relationship between the sentiment of a tweet and the temperature change in a country a user is living in? 
 
@@ -32,7 +32,7 @@ We choose one or more specific area of interests and extract the tweets related 
 | Historical Tweet mode | In this mode, the tweet data from the past days (from given date of beginning) are collected, organized into batches and uploaded. In this mode there are no time constraints, and hence basic preprocessing (such as removing unnecessary fields from tweet JSON) and sentiment extraction are done before uploading. |
 | Real time Stream mode | In this mode, the tweet data from real time stream are collected and uploaded. Since we are streaming real time data, additional tasks such as preprocessing and sentiment extraction creates an overhead. Hence, the tweet stream are not processed and the tweet JSON data is uploaded as is. |
 
-We use [AWS Comprehend](https://aws.amazon.com/comprehend/), which is a NLP service provided by AWS, to extract the sentiment from the tweet. As mentioned above, in [Historical Tweet mode](./airflow/search_tweets.py) we do the sentiment extraction before uploading and in [Real time Stream mode](./airflow/stream_tweets.py) we should setup our data pipelines to do the sentiment extraction after uploading.
+We use [Project Management Principles and Practices Specialization](https://www.coursera.org/specializations/project-management), which is a NLP service provided by AWS, to extract the sentiment from the tweet. As mentioned above, in [Historical Tweet mode](./airflow/search_tweets.py) we do the sentiment extraction before uploading and in [Real time Stream mode](./airflow/stream_tweets.py) we should setup our data pipelines to do the sentiment extraction after uploading.
 
 #### Explore and Assess the Data
 
