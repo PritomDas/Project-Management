@@ -3,7 +3,7 @@
 <br />
 
 <p align="center">
- <img src="./Certificate.pdf" alt="Logo" width="250" height="125">
+ <img src="./Certificate.png" alt="Logo" width="250" height="125">
  <h3 align="center">Twitter Data Topic Analysis</h3>
 </p>
 
