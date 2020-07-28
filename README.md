@@ -29,7 +29,7 @@ PritomSolutions will launch an automatic appointment scheduler for Blackboard In
 
 #### Initiating and Planning Projects
 
-<img src="./Certificates/1.png" alt="Logo" width="500" height="200">
+<img src="./Certificates/1.png" alt="Logo" width="500" height="400">
 Successful projects require careful upfront planning. In this course, I learnt the key roles and responsibilities of the project manager and project team. I also learnt to answer some key questions upfront to help you meet project objectives: What will this project accomplish? Why is this project important? Who benefits from this project? How will we plan for successful outcomes?
 
 Upon completing this course, I was able to grasp the following concepts clearly:
