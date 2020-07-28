@@ -21,24 +21,11 @@ Project management has been proven to be the most effective method of delivering
 
 #### Project Purpose
 
-In this project, we combine [Twitter](https://www.twitter.com) data, [World happiness index](https://www.kaggle.com/unsdsn/world-happiness) data and [Earth surface temperature data](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data) data to explore whether there is any correlation between the above. The Twitter data is dynamic and the other two dataset are static in nature. The general idea of this project is to extract Twitter data, analyze its sentiment and use the resulting data to gain insights with the other datasets. For instance, we could answer interesting questions like whether positive or negative tweets are correlated with the happiness index of the country a person is residing in, or, is there a relationship between the sentiment of a tweet and the temperature change in a country a user is living in? 
+This project is based between the client (Blackboard Inc) and the vendor(PritomSolutions). The project is to add a new module to support automatic appointment scheduling to Blackboard’s existing web application for use in web browser. This solves a critical problem by enabling professors from different faculties to set up meetings with their students. It will be interactive, easy to use, and will eliminate dependecies. Earlier the existing Blackboard application didn’t have any feature of this sort and thus students and professors had to exchange multiple emails or in-person visits to set up personal appointments. After this module is established, the students can visit the professors even on their non office hours and can also utilise the Blackboard Collaborate for online meetings at the desired slots. This project is important for Blackboard to enable them to stand out from their competitiors who are providing such solutions to various other universities.
 
-The entire process is orchestrated using Apache Airflow and is triggered automatically to run on daily schedule. The key tools used for this project AWS Redhift, AWS S3, AWS Kinesis and AWS Comprehend.
+#### Objectives
 
-We choose one or more specific area of interests and extract the tweets related to those from Twitter. We can use the [tweepy](https://www.tweepy.org/) python library to access Twitter API and extract tweets data. We can set up the the Airflow to work in either of the two modes (by commenting/uncommenting line in the Airflow [DAG](./airflow/dag.py). 
-
-|         Mode          |                        Specification                         |
-| :-------------------: | :----------------------------------------------------------: |
-| Historical Tweet mode | In this mode, the tweet data from the past days (from given date of beginning) are collected, organized into batches and uploaded. In this mode there are no time constraints, and hence basic preprocessing (such as removing unnecessary fields from tweet JSON) and sentiment extraction are done before uploading. |
-| Real time Stream mode | In this mode, the tweet data from real time stream are collected and uploaded. Since we are streaming real time data, additional tasks such as preprocessing and sentiment extraction creates an overhead. Hence, the tweet stream are not processed and the tweet JSON data is uploaded as is. |
-
-We use [Project Management Principles and Practices Specialization](https://www.coursera.org/specializations/project-management), which is a NLP service provided by AWS, to extract the sentiment from the tweet. As mentioned above, in [Historical Tweet mode](./airflow/search_tweets.py) we do the sentiment extraction before uploading and in [Real time Stream mode](./airflow/stream_tweets.py) we should setup our data pipelines to do the sentiment extraction after uploading.
-
-#### Explore and Assess the Data
-
-For the sake of this project, I have used `Historical Tweet mode` since real time streaming large amount of tweet data takes a significant amount of time. As of implementing this project, I ran this project on my local machine but deploying them on the cloud would be better due to its high reliability, availability and fault tolerance. We can use cloud services such as [AWS EC2](https://aws.amazon.com/ec2) to deploy the tweet streaming (or even the whole project) for this purpose.
-
-A quick data exploration and quality assessment was done on the datasets using Jupyter notebook [here](./notebooks/Exploratory_Data_Analysis.ipynb). The happiness index data had no issues - no duplicates and no missing values. The temperature data contained some NULL values (around 4%), and the correpysponding records were dropped before uploading to AWS S3. The tweet data, since being obtained from dynamic Twitter API, had standardization issues. For example, the location entries contained entries like "earth", some entries had city-country format and others had countries alone. If we process the tweet location data using some geographical tools, we could get the exact country location we wanted to.
+PritomSolutions will launch an automatic appointment scheduler for Blackboard Inc. for their existing application. It is going to accomplished with a budget no more than $250k and with a schedule within 5 months. Increase customer base and sales by 5% within 120 days after the product launch date of Dec 7, 2020.
 
 #### Define the Data Model
 
