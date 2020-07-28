@@ -14,8 +14,8 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+Project management has been proven to be the most effective method of delivering products within cost, schedule, and resource constraints. This intensive and hands-on series of capstone project was a part of the Coursera Specialization "Project Management Principles and Practices Specialization". This capstone project helped me to build the skills to ensure projects are completed on time and on budget while giving the user the product they expect. I gained a strong working knowledge of the basics of project management and can immediately use this knowledge to effectively manage work projects for any software development organisation. At the end of this series I was able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources, manage the project development, identify and manage risks, and understand the project procurement process.
 
-Twitter is one of the most popular social networking website in the world. Every second, on average, around 8,000 tweets are tweeted on Twitter, which corresponds to over 450,000 tweets sent per minute, 650 million tweets per day and around 250 billion tweets per year. As claimed by the official site, Twitter data is the most comprehensive source of live, public conversation worldwide. Furthermore, Twitter allows developers to access their tweet data through their APIs that enable programmatic analysis of data in real-time or back to the first Tweet in 2006. This project aims to utilize the tweet data and combine the data with world happiness index data and earth surface temperature data and warehouse them on AWS. The Twitter data extraction could be limited to specific topics/hash-tags as per requirements which allows us to explore various domains.
 
 ### Project Description
 
