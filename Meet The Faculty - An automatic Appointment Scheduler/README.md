@@ -95,7 +95,7 @@ I had worked on the following to demonstrate my project management skills:
 6.       Creating a responsibility assignment matrix
 7.       Identifying project risks and define responses for those risks
 
-I had also extensivley used Microsft Project 2019 Professional for many of the tasks. It was a great learning experience to work around in sunch an amazing tool along with Microsft Excel for effective Project Management.
+I had also extensivley used Microsft Project 2019 Professional for many of the tasks. It was a great learning experience to work around in sunch an amazing tool along with Microsft Excel for effective Project Management. All these files are opensourced in the repository for the learning purpose of students in the domain of Project Management.
 
 <!-- CONTACT -->
 
