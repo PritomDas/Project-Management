@@ -9,7 +9,7 @@
 
 
 
-> twitter, sentiment, s3, redshift, airflow, aws, data pipelines, data engineering, ETL 
+> Work Breakdown Structure, Work Schedule, Project Budget, RACI Chart, Risks & Issues, Sequence Diagram
 
 <!-- ABOUT THE PROJECT -->
 
