@@ -27,27 +27,24 @@ This project is based between the client (Blackboard Inc) and the vendor(PritomS
 
 PritomSolutions will launch an automatic appointment scheduler for Blackboard Inc. for their existing application. It is going to accomplished with a budget no more than $250k and with a schedule within 5 months. Increase customer base and sales by 5% within 120 days after the product launch date of Dec 7, 2020.
 
-#### Define the Data Model
+#### Initiating and Planning Projects
 
-The Star Database Schema (Fact and Dimension Schema) is used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each tweet and five dimensions tables, containing associated information such as user, source etc. This model enables to search the database schema with the minimum number of *SQL JOIN*s possible and enable fast read queries. 
+<img src="./Certificate.png" alt="Logo" width="750" height="500">
+Successful projects require careful upfront planning. In this course, I learnt the key roles and responsibilities of the project manager and project team. I also learnt to answer some key questions upfront to help you meet project objectives: What will this project accomplish? Why is this project important? Who benefits from this project? How will we plan for successful outcomes?
 
-![database](./images/database.png)
-
-|        Table        |                         Description                          |
-| :-----------------: | :----------------------------------------------------------: |
-|   staging_tweets    |                 Staging table for tweet data                 |
-|  staging_happiness  |         Staging table for world happiness index data         |
-| staging_temperature |              Staging table for temperature data              |
-|        users        | Dimension table containing user information derived from staging_tweets |
-|       sources       | Dimension table containing sources (Android/iPhone) derived from staging_tweets |
-|      happiness      | Dimension table containing happiness data derived from staging_happiness |
-|     temperature     | Dimension table containing temperature data derived from staging_temperature |
-|       tweets        | Fact table containing tweet information, happiness index and temperature derived from all three staging tables |
-
-> NB: The data dictionary [DATADICT](DATADICT.md) contains a description of every attribute for all tables listed above.
-
-Using this data model, we can finally answer questions regarding relationships between tweets, their sentiment, 
-users, their location, happiness scores by country and variations in temperature by country.
+Upon completing this course, I was able to grasp the following concepts clearly:
+1.       Identify the key characteristics of a project
+2.       Identify primary project constraints
+3.       Define the role and responsibilities of the project manager
+4.       Identify Project Organizational Structures
+5.       Understand the definition of a Project Stakeholder
+6.       Identify project stakeholders
+7.       Identify information needs of the project stakeholders
+8.       Define responsibility for managing stakeholder and controlling stakeholder engagement
+9.       Define the purpose of using a project charter
+10.     Summarize the key elements of a project plan
+11.     Identify common sources of conflict within a project environment
+12.     Describe the difference between authority and influence
 
 **DAG Operations**
 
