@@ -12,6 +12,8 @@
 > Work Breakdown Structure, Work Schedule, Project Budget, RACI Chart, Risks & Issues, Sequence Diagram
 
 <!-- ABOUT THE PROJECT -->
+## Why open source Project Management?
+Project Managers play a critical role in making sure that the right product gets built. This starts by deeply understanding the users and the problems that needs solving , then working with a number of different teams to identify and build a solution. This repository contains various projects and works that I have done as a Project Manager on the field of Software Development which I have open sourced for beginner's to learn from the nitty gritty that goes behind project management.
 
 ## About The Project
 Project management has been proven to be the most effective method of delivering products within cost, schedule, and resource constraints. This intensive and hands-on series of capstone project was a part of the Coursera Specialization [Project Management Principles and Practices Specialization](https://www.coursera.org/specializations/project-management). This capstone project helped me to build the skills to ensure projects are completed on time and on budget while giving the user the product they expect. I gained a strong working knowledge of the basics of project management and can immediately use this knowledge to effectively manage work projects for any software development organisation. At the end of this series I was able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources, manage the project development, identify and manage risks, and understand the project procurement process.
